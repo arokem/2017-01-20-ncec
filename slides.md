@@ -5,13 +5,26 @@ class: center, middle
 
 # Data Science:
 
-### Tools and practices for data-intensive neuroscience research
+###
 
 ## Ariel Rokem
 
 ### The University of Washington eScience Institute
 
 <small>Follow along at: <a href="https://arokem.github.io/2017-01-20-ncec">https://arokem.github.io/2017-01-20-ncec</small>
+
+
+---
+
+<img src="images/escience.png" width=350>
+
+<image src="images/DSE-and-sponsors.png" height=200px>
+
+#### $ 37.8M for 5 years: <a href="http://msdse.org/">"Moore-Sloan Data Science Environments"</a>
+
+Additional funding from
+ - Washington Research Foundation <br>
+ - National Science Foundation
 
 ---
 
