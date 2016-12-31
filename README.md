@@ -1,6 +1,8 @@
-### Template for talks
+### Data Science: Tools and practices for data-intensive neuroscience research
 
-This template is provided under the [Creative Commons CC-BY](https://creativecommons.org/licenses/by/4.0/legalcode) license.
+Talk at the [2017 Neural Computation and Engineering Connection](http://uwin.washington.edu/ncec/) conference, January 20th, 2017
+
+The slides are provided under the [Creative Commons CC-BY](https://creativecommons.org/licenses/by/4.0/legalcode) license.
 
 
 ### Remark.js LICENSE
