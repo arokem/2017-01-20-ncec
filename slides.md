@@ -1,11 +1,13 @@
 
-class: center, middle
+class: center, middle, theBlackBackground
 
-<img src="images/escience.png" width=350>
+## 2017 Neural Computation and Engineering Connection
 
-# Data Science:
+<img src="images/ncec-logo.png" width=750>
 
-###
+## Data Science:
+
+### Something, something, something
 
 ## Ariel Rokem
 
@@ -17,6 +19,8 @@ class: center, middle
 ---
 
 <img src="images/escience.png" width=350>
+
+--
 
 <image src="images/DSE-and-sponsors.png" height=200px>
 
