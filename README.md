@@ -1,4 +1,4 @@
-### Data Science: Tools and practices for data-intensive neuroscience research
+### Data Science: Tools and practices for the era of brain observatories
 
 Talk at the [2017 Neural Computation and Engineering Connection](http://uwin.washington.edu/ncec/) conference, January 20th, 2017
 

@@ -7,14 +7,13 @@ class: center, middle, theBlackBackground
 
 ## Data Science:
 
-### Something, something, something
+### Tools and practices for the era of brain observatories
 
 ## Ariel Rokem
 
 ### The University of Washington eScience Institute
 
-<small>Follow along at: <a href="https://arokem.github.io/2017-01-20-ncec">https://arokem.github.io/2017-01-20-ncec</small>
-
+<small>Follow along at: .white[<a href="https://arokem.github.io/2017-01-20-ncec">https://arokem.github.io/2017-01-20-ncec</small>]
 
 ---
 
