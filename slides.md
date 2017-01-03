@@ -81,9 +81,8 @@ Challenges of training
 - High-quality measurements of MRI
 - Genetics, cognitive measures, etc...
 
----
 
-layout: false
+---
 
 ### Diffusion MRI
 
@@ -94,6 +93,60 @@ layout: false
 ### Human white matter
 
 <video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/cc_tube_movie.mov"/> </video>
+
+---
+
+layout: true
+
+---
+
+## Models of the white matter
+
+<div style="position: absolute; left: 500px; top: 650px;" >
+  <small>Basser, Mattielo and Le Bihan (1994)</small>
+</div>
+
+--
+
+<div style="position: absolute; left: 40px; top: 180px;">
+<video width="40%" autoplay loop>
+  <source src="./videos/tensor-signal-movie.mp4">
+</video>
+</div>
+
+--
+
+<div style="position: absolute; top: 260px; left: 320px;" >
+  <image src="./images/q-form.png" style="background:none; border:none; box-shadow:none;" height="70">
+</div>
+
+--
+
+<div class="fragment" style="position: absolute; top: 200px; left: 630px;">
+<video width="70%" autoplay loop>
+<source src="./videos/tensor-ellipse-movie.mp4">
+</video>
+</div>
+
+--
+
+style: middle, center
+
+#### Diffusion Tensor Model
+
+---
+layout: true
+
+<div style="position: absolute; left: 650px; top: 370px;">
+<image src="images/escience-network.png" width=500px style="opacity:0.4;filter:alpha(opacity=40);"> </div>
+
+---
+
+## Data volume (GB)
+
+<img src="images/data-sizes.png" width=600>
+
+### What computational system should we use to analyze these data?
 
 ---
 
@@ -111,8 +164,9 @@ layout: false
 - Jake Vanderplas (eScience, UW Astronomy)
 - Yusra AlSayyad (UW Astronomy)
 
+<div style="position: absolute; left: 50px; top: 650px;" >
 <a href="https://arxiv.org/abs/1612.02485">Mehta et al. (in review)</a>
-
+</div>
 ---
 
 ## Data-bases have much to offer for image processing
@@ -133,13 +187,15 @@ layout: false
 
 - Physical data independence
 
-   => Users don't have to worry about how the data is organized in the cluster
+   => Data ingestion and distribution is automatic
+
 
 --
 
 - Infrastructure independence
 
     => Can be deployed in cloud computing systems
+
     => Can be deployed in on-prem HPC resources
 
 ---
@@ -190,46 +246,6 @@ layout: false
 - Jason Yeatman (UW ILABS)
 - Libby Huber (UW ILABS)
 - Rafael Neto Henriques (Cambridge University)
-
----
-
-layout: true
-
----
-
-## Models of the white matter
-
-<div style="position: absolute; left: 500px; top: 650px;" >
-  <small>Basser, Mattielo and Le Bihan (1994)</small>
-</div>
-
---
-
-<div style="position: absolute; left: 40px; top: 180px;">
-<video width="40%" autoplay loop>
-  <source src="./videos/tensor-signal-movie.mp4">
-</video>
-</div>
-
---
-
-<div style="position: absolute; top: 260px; left: 320px;" >
-  <image src="./images/q-form.png" style="background:none; border:none; box-shadow:none;" height="70">
-</div>
-
---
-
-<div class="fragment" style="position: absolute; top: 200px; left: 630px;">
-<video width="70%" autoplay loop>
-<source src="./videos/tensor-ellipse-movie.mp4">
-</video>
-</div>
-
---
-
-style: middle, center
-
-#### Diffusion Tensor Model
 
 ---
 
