@@ -5,11 +5,9 @@ class: center, middle, theBlackBackground
 
 <img src="images/ncec-logo.png" width=750>
 
-## Data Science:
+## Data Science: Tools and practices for the era of brain observatories
 
-### Tools and practices for the era of brain observatories
-
-## Ariel Rokem
+### Ariel Rokem
 
 ### The University of Washington eScience Institute
 
@@ -30,7 +28,6 @@ Additional funding from
  - National Science Foundation
 
 ---
-
 layout: true
 
 <div style="position: absolute; left: 650px; top: 370px;">
@@ -38,19 +35,27 @@ layout: true
 
 ---
 
-# The age of brain observatories
+# Data Science
+
+<img src="images/DataScienceVD.png" width=600>
+
+<div style="position: absolute; left: 50px; top: 600px;" >
+  <small> <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1751-5823.2001.tb00477.x/abstract"> Cleveland (2001) </small> <br> </a>
+
+  <small> <a href="http://www.forbes.com/pictures/lmm45emkh/2-jeff-hammerbacher-chief-scientist-cloudera-and-dj-patil-entrepreneur-in-residence-greylock-ventures/#61b8a2c56d7b">Patil and Hammerbacher (circa 2008)</a> </small> <br>
+
+  <small> <a href="http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram">Conway (2013) </a></small>
+</div>
+
+
+---
+
+# The era of brain observatories
 
 --
 
-- The shift from an experimental science to an observational science
+<img src="images/DataScienceVD.png" width=600>
 
---
-
-- Communities of practice
-
---
-
--
 
 ---
 
@@ -58,38 +63,19 @@ layout: true
 
 --
 
-Analysis and interpretation
-
-### The challenge of "innovation squared"
+Challenges of analysis and interpretation
 
 --
 
-Automation
+Challenges of reproducibility
 
 --
 
-Reproducibility
-
---
-
-Training
-
----
-
-### Precision medicine
-
-<image src="images/obama_and_dna.jpg"  height="40%">
-
-Making medicine
-#### Personalized, Predictive, Preventative, Participatory
-
-<small><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3978637/">Hood and Auffray (2013)</a></small>
+Challenges of training
 
 ---
 
 ### The Human Connectome Project
-
-### A brain "observatory"
 
 - More than 1,000 participants
 - High-quality measurements of MRI
@@ -97,7 +83,21 @@ Making medicine
 
 ---
 
-# Big data neuroimaging
+layout: false
+
+### Diffusion MRI
+
+<video preload="auto" width="70%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/dMRI-signal-movie.mp4"/></video>
+
+---
+
+### Human white matter
+
+<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/cc_tube_movie.mov"/> </video>
+
+---
+
+## Database support for image analytics at scale
 
 ## In collaboration with:
 
@@ -111,27 +111,85 @@ Making medicine
 - Jake Vanderplas (eScience, UW Astronomy)
 - Yusra AlSayyad (UW Astronomy)
 
----
-
-https://arxiv.org/abs/1612.02485
+<a href="https://arxiv.org/abs/1612.02485">Mehta et al. (in review)</a>
 
 ---
+
+## Data-bases have much to offer for image processing
+
+--
+
+- Declarative languages to access data
+
+  => Select what to process and prepare the data
+
+--
+
+- Decalarative languages for specifying computations
+
+    => But can also deploy user-defined code
+
+--
+
+- Physical data independence
+
+   => Users don't have to worry about how the data is organized in the cluster
+
+--
+
+- Infrastructure independence
+
+    => Can be deployed in cloud computing systems
+    => Can be deployed in on-prem HPC resources
+
+---
+
+## The current landscape of data-base systems:
+
+- Parallel computing library for Python
+
+  => Dask (http://dask.pydata.org/en/latest/)
+
+- Big data management & analytics
+
+  => Myria (http://myria.cs.washington.edu/)
+
+  => Spark (http://spark.apache.org/)
+
+- Parallel array processing system
+
+  => SciDB (http://scidb.org/)
+
+- Library for numerical computation over tensors
+
+    => Tensorflow (https://www.tensorflow.org/)
+
+---
+
+
+
+
+---
+
+## An aside about TensorFlow
+
+
+
+---
+
+### An aside about "the challenge of innovation squared"
+
+
+---
+
 
 # Statistical intepretation of brain structure
+
 ## In collaboration with
 
 - Jason Yeatman (UW ILABS)
 - Libby Huber (UW ILABS)
 - Rafael Neto Henriques (Cambridge University)
-
-### Diffusion MRI
-
-<video id="mri-zstack" preload="auto" width="70%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/dMRI-signal-movie.mp4"/></video>
-
----
-### Human white matter
-
-<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/cc_tube_movie.mov"/> </video>
 
 ---
 
@@ -144,11 +202,10 @@ layout: true
 <div style="position: absolute; left: 500px; top: 650px;" >
   <small>Basser, Mattielo and Le Bihan (1994)</small>
 </div>
-</div>
 
 --
 
-<div class="fragment" style="position: absolute; left: 40px; top: 180px;">
+<div style="position: absolute; left: 40px; top: 180px;">
 <video width="40%" autoplay loop>
   <source src="./videos/tensor-signal-movie.mp4">
 </video>
@@ -156,12 +213,12 @@ layout: true
 
 --
 
-<div class="fragment">
 <div style="position: absolute; top: 260px; left: 320px;" >
   <image src="./images/q-form.png" style="background:none; border:none; box-shadow:none;" height="70">
 </div>
 
 --
+
 <div class="fragment" style="position: absolute; top: 200px; left: 630px;">
 <video width="70%" autoplay loop>
 <source src="./videos/tensor-ellipse-movie.mp4">
@@ -232,13 +289,29 @@ Rafael Neto Henriques
 ---
 
 
+# Challenges of reproducibility
+
+Open source software for science
+
+
+---
+
+# Challenges of training
+
+---
+
+# Neurohackweek
+
+---
+
+# Brainhack global, March 2017
 
 
 ---
 class: center
 layout: false
 
-### Stay in touch!
+### Get in touch!
 
 <div style="position:absolute; left: 220px; top:100px;">
   <img src="images/globe-xxl.png" width="100px;" style="background:none; border:none; box-shadow:none;">
