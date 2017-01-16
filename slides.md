@@ -49,31 +49,25 @@ layout: true
 
 
 ---
+class: theBlackBackground
 
 # The era of brain observatories
 
 --
 
-<img src="images/DataScienceVD.png" width=600>
-
-
----
-
-# Challenges
-
---
-
-Challenges of analysis and interpretation
-
---
-
-Challenges of reproducibility
-
---
-
-Challenges of training
+<img src="images/radio-astronomy-survey.png" width=600>
 
 ---
+
+## Brain observatories:
+
+- Allen Institute for Brain Science
+
+--
+
+- UK Biobank
+
+--
 
 ### The Human Connectome Project
 
@@ -81,6 +75,42 @@ Challenges of training
 - High-quality measurements of MRI
 - Genetics, cognitive measures, etc...
 
+---
+
+# Challenges
+
+--
+
+Analysis and interpretation
+
+--
+
+Scalable computation
+
+--
+
+Reproducibility
+
+--
+
+Training
+
+---
+
+# Statistical intepretation of brain structure
+
+## In collaboration with
+
+- Jason Yeatman (UW ILABS)
+- Libby Huber (UW ILABS)
+- Rafael Neto Henriques (Cambridge University)
+
+---
+
+layout: true
+
+<div style="position: absolute; left: 650px; top: 370px;">
+<image src="images/escience-network.png" width=500px style="opacity:0.4;filter:alpha(opacity=40);"> </div>
 
 ---
 
@@ -122,7 +152,7 @@ layout: true
 
 --
 
-<div class="fragment" style="position: absolute; top: 200px; left: 630px;">
+<div style="position: absolute; top: 200px; left: 630px;">
 <video width="70%" autoplay loop>
 <source src="./videos/tensor-ellipse-movie.mp4">
 </video>
@@ -134,11 +164,29 @@ style: middle, center
 
 #### Diffusion Tensor Model
 
+--
+
+style: middle, center
+
+
+### Diffusion Kurtosis  
+
 ---
 layout: true
 
 <div style="position: absolute; left: 650px; top: 370px;">
 <image src="images/escience-network.png" width=500px style="opacity:0.4;filter:alpha(opacity=40);"> </div>
+
+---
+
+## Model selection with cross-validation
+
+
+<div style="position: absolute; left: 500px; top: 650px;" >
+  <small>Rokem et al. (2015)</small>
+</div>
+
+<image src="images/rokem_rrmse.png" height="30%">
 
 ---
 
@@ -227,67 +275,15 @@ layout: true
 
 ---
 
-## An aside about TensorFlow
-
-
-
----
-
-### An aside about "the challenge of innovation squared"
-
-
----
-
-
-# Statistical intepretation of brain structure
-
-## In collaboration with
-
-- Jason Yeatman (UW ILABS)
-- Libby Huber (UW ILABS)
-- Rafael Neto Henriques (Cambridge University)
-
----
-
-layout: true
-
-<div style="position: absolute; left: 650px; top: 370px;">
-<image src="images/escience-network.png" width=500px style="opacity:0.4;filter:alpha(opacity=40);"> </div>
-
----
-
-### An alternative: Diffusion Kurtosis (Jensen, 2005)
+### The challenge of novelty squared
 
 --
 
-<div style="position: absolute; left: 100px; top: 120px;">
-<image src="images/dipy-logo.png"  height="10%">
-</div>
+"The last thing I want to have happen with an interdisciplinary collaboration is that my CS and stats colleagues find their contribution to be routine if not mundane"
 
 --
 
-<div style="position: absolute; left: 100px; top: 300px;">
-
-<image src="images/Google_Summer_Of_Code_2015.jpg"  height="40%">
-Rafael Neto Henriques
-</div>
-
---
-
----
-
-## Model selection with cross-validation
-
-
-<div style="position: absolute; left: 500px; top: 650px;" >
-  <small>Rokem et al. (2015)</small>
-</div>
-
-<image src="images/rokem_rrmse.png" height="30%">
-
---
-
-<a href="http://nipy.org/dipy/examples_built/kfold_xval.html">DIPY K-fold cross-validation</a>
+Novelty squared takes time and effort!
 
 ---
 
@@ -304,15 +300,127 @@ Rafael Neto Henriques
 
 ---
 
+## What about TensorFlow?
 
-# Challenges of reproducibility
-
-Open source software for science
 
 
 ---
 
+## Challenge of Reproducibility
+
+<image src="images/repro-crisis.png" height="100px">
+
+
+---
+
+## Reproducibility in computational science
+
+.red[
+"An article about computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result."
+]
+
+<a href="http://biostatistics.oxfordjournals.org/content/11/3/385.long">Buckheit and Donoho (1995) </a>
+
+---
+
+## Reproducibility
+
+--
+
+- Reproducibility is a matter of degree, not of kind
+
+--
+
+- Reproducibility is a verb, not a noun
+
+--
+
+-
+
+---
+
+### A matter of degree
+
+--
+
+- Can you make your data available?
+
+--
+
+- What if your analysis requires extraordinary amounts of computation?
+
+--
+
+- Or if it requires multiple distinct steps?
+
+---
+
+# Reproducibility is a verb, not a noun
+
+---
+
+#### Open-source science: the scientific Python eco-system
+
+<image src="images/python-ecosystem1.png" height=500px>
+
+---
+
+#### Open-source science: the scientific Python eco-system
+
+<image src="images/python-ecosystem2.png" height=500px>
+
+---
+
+#### Open-source science: the scientific Python eco-system
+
+<image src="images/python-ecosystem3.png" height=500px>
+
+---
+
+#### Open-source science: the scientific Python eco-system
+
+<image src="images/python-ecosystem4.png" height=500px>
+
+---
+
+### Neuroimaging in Python
+
+<a href="http://nipy.org/"><image src="images/nipy-logo.png" height="40%"></a>
+
+--
+
+<div style="position: absolute; left: 100px; top: 120px;">
+<image src="images/dipy-logo.png"  height="10%">
+</div>
+
+--
+
+<div style="position: absolute; left: 100px; top: 300px;">
+
+<image src="images/Google_Summer_Of_Code_2015.jpg"  height="40%">
+Rafael Neto Henriques
+
+</div>
+
+--
+
+<a href="http://nipy.org/dipy/examples_built/kfold_xval.html">DIPY K-fold cross-validation</a>
+
+---
+
 # Challenges of training
+
+--
+
+- interdisciplinary by nature
+
+--
+
+- Rapidly evolving
+
+--
+
+- 
 
 ---
 
