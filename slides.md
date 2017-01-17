@@ -164,18 +164,39 @@ style: middle, center
 
 #### Diffusion Tensor Model
 
---
-
-style: middle, center
-
-
-### Diffusion Kurtosis  
-
 ---
 layout: true
 
 <div style="position: absolute; left: 650px; top: 370px;">
 <image src="images/escience-network.png" width=500px style="opacity:0.4;filter:alpha(opacity=40);"> </div>
+
+---
+
+# Alternative models of diffusion
+
+Modern measurements enables models that tell us more about the tissue
+
+### Diffusion Kurtosis  
+
+<div style="position: absolute; left: 500px; top: 650px;" >
+  <small>Jensen et al. (2005)</small>
+</div>
+
+--
+
+- 15 independent parameters (>6 for DTI).
+
+--
+
+- Extends the diffusion tensor model to incorporate non-Gaussian diffusion.
+
+--
+
+- More detailed inferences about tissue structure and biophysics.
+
+--
+
+### Which model should we use to analyze the Human Connectome Project data?
 
 ---
 
@@ -187,6 +208,10 @@ layout: true
 </div>
 
 <image src="images/rokem_rrmse.png" height="30%">
+
+--
+
+HCP => no test-retest data, have to use k-fold cross-validation
 
 ---
 
@@ -213,7 +238,7 @@ layout: true
 - Yusra AlSayyad (UW Astronomy)
 
 <div style="position: absolute; left: 50px; top: 650px;" >
-<a href="https://arxiv.org/abs/1612.02485">Mehta et al. (in review)</a>
+<a href="https://arxiv.org/abs/1612.02485">Mehta et al. (in revision, VLDB)</a>
 </div>
 ---
 
@@ -279,22 +304,22 @@ layout: true
 
 --
 
-"The last thing I want to have happen with an interdisciplinary collaboration is that my CS and stats colleagues find their contribution to be routine if not mundane"
+Interdisciplinary research that makes progress in both disciplines
 
 --
 
-Novelty squared takes time and effort!
+"The last thing I want to have happen with an interdisciplinary collaboration is that my CS and stats colleagues find their contribution to be routine if not mundane"
 
 ---
 
-## 5-fold cross-validation on 900 subjects
+## 5-fold cross-validation on the HCP data-set
 
 <image src="images/spark-logo-trademark.png" height="100px">
 <image src="images/AWS.png" height="20%">
 
-<a href="https://github.com/arokem/dki-accuracy-reliability">Github code repository</a>
-
 ---
+
+## 5-fold cross-validation on the HCP data-set
 
 <image src="images/DKI_DTI.png" height"100%">
 
@@ -353,9 +378,28 @@ Novelty squared takes time and effort!
 
 - Or if it requires multiple distinct steps?
 
+
+---
+
+## 5-fold cross-validation on 900 subjects
+
+https://github.com/arokem/dki-accuracy-reliability
+
 ---
 
 # Reproducibility is a verb, not a noun
+
+--
+
+Even if your code and data are available that might not be enough
+
+--
+
+Code degrades with time...
+
+--
+
+...unless it is properly maintained
 
 ---
 
@@ -408,27 +452,97 @@ Rafael Neto Henriques
 
 ---
 
+### Leveraging the eco-system
+
+--
+
+- pyAFQ: automated fiber quantification in Python
+
+--
+
+- [AFQ-browser](http://viz.afq-browser.org/): browser-based visualization
+
+
+---
+
+
 # Challenges of training
 
 --
 
-- interdisciplinary by nature
+- Interdisciplinary by nature
 
 --
 
 - Rapidly evolving
 
---
-
-- 
 
 ---
 
 # Neurohackweek
 
+--
+Inspired by [Astrohackweek](http://astrohackweek.org)
+
+--
+
+Part summer school
+
+--
+
+Part hackathon
+
+--
+
+5 days
+
+--
+
+40 participants
+
+--
+
+10 instructors (including Bing Brunton, Jason Yeatman, ...)
+
+--
+
+https://neurohackweek.github.io/nhw2016/
+
 ---
 
-# Brainhack global, March 2017
+# Neurohackweek outcomes
+
+--
+
+10 different projects
+
+--
+
+Massively parallel preprocessing of public data-sets
+
+--
+
+Machine learning tools to denoise pediatric MRI datasets
+
+--
+
+Browser-based QC for MRI
+
+--
+
+Software to print 3D models of *your* brain
+
+--
+
+https://github.com/neurohackweek
+
+--
+
+Two paper manuscripts (!)
+
+---
+
+### Brainhack global, March 2017
 
 
 ---
