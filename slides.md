@@ -165,6 +165,7 @@ style: middle, center
 #### Diffusion Tensor Model
 
 ---
+
 layout: true
 
 <div style="position: absolute; left: 650px; top: 370px;">
@@ -542,8 +543,17 @@ Two paper manuscripts (!)
 
 ---
 
-### Brainhack global, March 2017
+# Neurohackweek 2017
 
+### Coming in September
+
+---
+
+# In the meanwhile
+
+### [Brainhack global](http://events.brainhack.org/global2017/), March 4th-5th, 2017
+
+Sign up here: http://tinyurl.com/brainhack-global-2017-SEA
 
 ---
 class: center
