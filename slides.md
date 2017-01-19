@@ -437,7 +437,7 @@ Code degrades with time...
 --
 
 <div style="position: absolute; left: 100px; top: 120px;">
-<image src="images/dipy-logo.png"  height="10%">
+<a href="http://dipy.org"><image src="images/dipy-logo.png"  height="10%"></a>
 </div>
 
 --
@@ -451,7 +451,12 @@ Rafael Neto Henriques
 
 --
 
+<div style="position: absolute; left: 0px; top: 350px;">
+
+
 <a href="http://nipy.org/dipy/examples_built/kfold_xval.html">DIPY K-fold cross-validation</a>
+
+</div>
 
 ---
 
