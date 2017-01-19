@@ -363,6 +363,12 @@ Interdisciplinary research that makes progress in both disciplines
 
 ---
 
+<image src="images/deep-fmri.png" height="400px">
+
+<div style="position: absolute; left: 50px; top: 650px;" >
+<a href="https://hal.inria.fr/hal-01389809/document">Eickenberg et al. (2016)</a>
+</div>
+
 
 
 ---
