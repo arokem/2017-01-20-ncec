@@ -361,8 +361,8 @@ Interdisciplinary research that makes progress in both disciplines
 ## What about TensorFlow?
 
 
-
 ---
+
 
 
 ---
@@ -469,7 +469,9 @@ Code degrades with time...
 
 <a href="http://nipy.org/"><image src="images/nipy-logo.png" height="10%"></a>
 
---
+---
+
+### Neuroimaging in Python
 
 <div style="position: absolute; left: 100px; top: 120px;">
 <a href="http://dipy.org"><image src="images/dipy-logo.png"  height="10%"></a>
@@ -497,9 +499,11 @@ Rafael Neto Henriques
 
 ### Leveraging the eco-system
 
+### With Yeatman lab
+
 --
 
-- pyAFQ: automated fiber quantification in Python
+- [pyAFQ](http://yeatmanlab.github.io/pyAFQ/): automated fiber quantification in Python
 
 --
 
