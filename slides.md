@@ -361,7 +361,7 @@ Interdisciplinary research that makes progress in both disciplines
 
 --
 
--
+- Build it in from day 1
 
 ---
 
@@ -381,6 +381,8 @@ Interdisciplinary research that makes progress in both disciplines
 
 
 ---
+
+# Cloud computing enables reproducibility
 
 ## 5-fold cross-validation on 900 subjects
 
@@ -463,9 +465,27 @@ Rafael Neto Henriques
 
 - [AFQ-browser](http://viz.afq-browser.org/): browser-based visualization
 
-
 ---
 
+# Build it in from day 1
+
+--
+
+### Build your own brain observatory!
+
+--
+
+[The Brain Imaging Data Structure](http://bids.neuroimaging.io/)
+
+--
+
+### Open everything
+
+- Code
+- Data
+- Papers
+
+---
 
 # Challenges of training
 
