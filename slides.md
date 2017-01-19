@@ -377,7 +377,6 @@ Interdisciplinary research that makes progress in both disciplines
 
 <image src="images/repro-crisis.png" height="500px">
 
-
 ---
 
 ## Reproducibility in computational science
@@ -414,18 +413,17 @@ Interdisciplinary research that makes progress in both disciplines
 
 --
 
-- What if your analysis requires extraordinary amounts of computation?
+- What if the raw data is very big?
 
 --
 
-- Or if it requires multiple distinct steps?
-
+- And what if your analysis requires extraordinary amounts of computation?
 
 ---
 
-# Cloud computing enables reproducibility
+## Cloud computing enables reproducibility
 
-## 5-fold cross-validation on 900 subjects
+# 5-fold cross-validation on 900 subjects
 
 https://github.com/arokem/dki-accuracy-reliability
 
@@ -505,7 +503,7 @@ Rafael Neto Henriques
 
 ### Leveraging the eco-system
 
-### With Yeatman lab
+### With Jason Yeatman's lab
 
 --
 
@@ -527,7 +525,14 @@ Rafael Neto Henriques
 
 [The Brain Imaging Data Structure](http://bids.neuroimaging.io/)
 
---
+<image src="images/bids-example.png"  height="40%">
+
+<div style="position: absolute; left: 50px; top: 650px;" >
+<a href="http://arokem.org/publications/papers/BIDS.pdf">Gorgolewski et al. (2016)</a>
+</div>
+
+
+---
 
 ### Open everything
 
