@@ -334,7 +334,7 @@ Interdisciplinary research that makes progress in both disciplines
 
 ## Challenge of Reproducibility
 
-<image src="images/repro-crisis.png" height="100px">
+<image src="images/repro-crisis.png" height="500px">
 
 
 ---
