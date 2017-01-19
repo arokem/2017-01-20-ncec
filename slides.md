@@ -197,7 +197,7 @@ Modern measurements enables models that tell us more about the tissue
 
 --
 
-### Which model should we use to analyze the Human Connectome Project data?
+**Which model should we use to analyze the Human Connectome Project data?**
 
 ---
 
@@ -296,23 +296,34 @@ HCP => no test-retest data, have to use k-fold cross-validation
 
 ---
 
-###
+## Benchmark results: filtering
 
 <img src="images/benchmark-filtering.png" width=600>
 
-
 ---
 
-###
+## Benchmark results: averaging
 
 <img src="images/benchmark-averaging.png" width=600>
 
 ---
 
-###
+## But: end-to-end is challenging:
+
+- SciDB/TensorFlow required complete rewrite of the algorithms.
+- Given their slowness in these steps
+- We tested only some of the pipeline in these cases.
+
+--
 
 <img src="images/benchmark-end-to-end.png" width=600>
 
+---
+
+## Qualitative assessment
+
+- Dask, Myria and Spark support user-defined functions
+- SciDB/TensorFlow required rewriting
 
 ---
 
