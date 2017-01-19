@@ -432,7 +432,7 @@ Code degrades with time...
 
 ### Neuroimaging in Python
 
-<a href="http://nipy.org/"><image src="images/nipy-logo.png" height="40%"></a>
+<a href="http://nipy.org/"><image src="images/nipy-logo.png" height="10%"></a>
 
 --
 
@@ -451,7 +451,7 @@ Rafael Neto Henriques
 
 --
 
-<div style="position: absolute; left: 0px; top: 350px;">
+<div style="position: absolute; left: 20px; top: 6000px;">
 
 
 <a href="http://nipy.org/dipy/examples_built/kfold_xval.html">DIPY K-fold cross-validation</a>
