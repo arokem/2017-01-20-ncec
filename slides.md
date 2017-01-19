@@ -296,7 +296,22 @@ HCP => no test-retest data, have to use k-fold cross-validation
 
 ---
 
+###
 
+<img src="images/benchmark-filtering.png" width=600>
+
+
+---
+
+###
+
+<img src="images/benchmark-averaging.png" width=600>
+
+---
+
+###
+
+<img src="images/benchmark-end-to-end.png" width=600>
 
 
 ---
@@ -309,7 +324,9 @@ Interdisciplinary research that makes progress in both disciplines
 
 --
 
-"The last thing I want to have happen with an interdisciplinary collaboration is that my CS and stats colleagues find their contribution to be routine if not mundane"
+.red["The last thing I want to have happen with an interdisciplinary collaboration is that my CS and stats colleagues find their contribution to be routine if not mundane"]
+
+[Josh Bloom](https://medium.com/@profjsb/novelty-squared-dd88857f662)
 
 ---
 
@@ -328,6 +345,9 @@ Interdisciplinary research that makes progress in both disciplines
 
 ## What about TensorFlow?
 
+
+
+---
 
 
 ---
