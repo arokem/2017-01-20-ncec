@@ -177,11 +177,7 @@ layout: true
 
 Modern measurements enables models that tell us more about the tissue
 
-### Diffusion Kurtosis  
-
-<div style="position: absolute; left: 500px; top: 650px;" >
-  <small>Jensen et al. (2005)</small>
-</div>
+### Diffusion Kurtosis (Jensen et al. 2005)
 
 --
 
@@ -197,7 +193,7 @@ Modern measurements enables models that tell us more about the tissue
 
 --
 
-**Which model should we use to analyze the Human Connectome Project data?**
+**Which model should we use to analyze the Human Connectome Project?**
 
 ---
 
@@ -296,6 +292,15 @@ HCP => no test-retest data, have to use k-fold cross-validation
 
 ---
 
+## Benchmark study:
+
+- Filter
+- Average
+- Denoise
+- Fit a tensor
+
+---
+
 ## Benchmark results: filtering
 
 <img src="images/benchmark-filtering.png" width=600>
@@ -310,9 +315,8 @@ HCP => no test-retest data, have to use k-fold cross-validation
 
 ## But: end-to-end is challenging:
 
-- SciDB/TensorFlow required complete rewrite of the algorithms.
-- Given their slowness in these steps
-- We tested only some of the pipeline in these cases.
+- TensorFlow didn't have an SVD when we implemented the pipeline
+- SciDB still doesn't
 
 --
 
@@ -320,10 +324,10 @@ HCP => no test-retest data, have to use k-fold cross-validation
 
 ---
 
-## Qualitative assessment
+## In addition
 
 - Dask, Myria and Spark support user-defined functions
-- SciDB/TensorFlow required rewriting
+- SciDB/TensorFlow required complete rewrites of the pipeline
 
 ---
 
