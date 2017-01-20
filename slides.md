@@ -362,6 +362,7 @@ Interdisciplinary research that makes progress in both disciplines
 
 <image src="images/DKI_DTI.png" height"100%">
 
+
 ---
 
 ## What about TensorFlow?
@@ -454,14 +455,14 @@ And now?
 <image src="images/dog-with-ball-occluder-center.png" height="300px">
 
 
-
-
 ---
 
 ### Into the black box
 
 
 <image src="images/OCT-validation.png" height="300px">
+
+--
 
 => face validity
 
