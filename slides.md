@@ -704,7 +704,7 @@ Sign up here: http://tinyurl.com/brainhack-global-2017-SEA
 
 # The WRF Data Science Studio
 
-<img src="images/DataScienceStudio.jpy" width=700>
+<img src="images/DataScienceStudio.jpg" width=700>
 
 
 ---
