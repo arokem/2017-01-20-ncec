@@ -606,15 +606,6 @@ Rafael Neto Henriques
 <a href="http://arokem.org/publications/papers/BIDS.pdf">Gorgolewski et al. (2016)</a>
 </div>
 
-
----
-
-### Open everything
-
-- Code
-- Data
-- Papers
-
 ---
 
 # Challenges of training
@@ -657,7 +648,7 @@ Part hackathon
 
 --
 
-https://neurohackweek.github.io/nhw2016/
+[https://neurohackweek.github.io/nhw2016/](https://neurohackweek.github.io/nhw2016/)
 
 ---
 
@@ -689,7 +680,7 @@ Open instructional materials (computing and neuroscience)
 
 --
 
-https://github.com/neurohackweek
+[https://github.com/neurohackweek](https://github.com/neurohackweek)
 
 --
 
