@@ -326,7 +326,7 @@ HCP => no test-retest data, have to use k-fold cross-validation
 
 ## At least performance scales well
 
-<img src="images/benchmark-end-to-end.png" width=600>
+<img src="images/benchmark-scaling.png" width=600>
 
 ---
 
@@ -391,6 +391,9 @@ Optical coherence tomography
 --
 
 <image src="images/OCT.png" height="200px">
+
+<image src="images/OCT-irf.png" height="200px">
+
 
 ---
 
