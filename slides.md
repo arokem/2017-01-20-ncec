@@ -25,7 +25,8 @@ class: center, middle, theBlackBackground
 
 Additional funding from
  - Washington Research Foundation <br>
- - National Science Foundation
+ - National Science Foundation <br>
+ - Bill & Melinda Gates Foundation <br>
 
 ---
 layout: true
