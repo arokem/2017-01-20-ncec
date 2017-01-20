@@ -390,7 +390,7 @@ Optical coherence tomography
 
 --
 
-<image src="images/OCT.png" height="400px">
+<image src="images/OCT.png" height="200px">
 
 ---
 
