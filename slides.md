@@ -618,8 +618,6 @@ Rafael Neto Henriques
 
 # Neurohackweek
 
---
-Inspired by [Astrohackweek](http://astrohackweek.org)
 
 --
 
@@ -628,6 +626,10 @@ Part summer school
 --
 
 Part hackathon
+
+--
+
+Inspired by [Astrohackweek](http://astrohackweek.org)
 
 --
 
