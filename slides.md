@@ -433,6 +433,34 @@ Often longitudinal measurements (e.g., pre- and post-treatment)
 
 ### Into the black box
 
+Is there a ball in the picture?
+
+<image src="images/dog-with-ball.png" height="300px">
+
+---
+
+### Into the black box
+
+How about now?
+
+<image src="images/dog-with-ball-occluder-corner.png" height="300px">
+
+---
+
+### Into the black box
+
+And now?
+
+<image src="images/dog-with-ball-occluder-center.png" height="300px">
+
+
+
+
+---
+
+### Into the black box
+
+
 <image src="images/OCT-validation.png" height="300px">
 
 => face validity
