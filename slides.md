@@ -23,7 +23,7 @@ class: center, middle, theBlackBackground
 
 #### $ 37.8M for 5 years: <a href="http://msdse.org/">"Moore-Sloan Data Science Environments"</a>
 
-Additional funding from
+Additional funding from:
  - Washington Research Foundation <br>
  - National Science Foundation <br>
  - Bill & Melinda Gates Foundation <br>
