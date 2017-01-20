@@ -646,6 +646,13 @@ Part hackathon
 
 ---
 
+# Neurohackweek
+
+<image src="images/neurohackweek.png"  height="40%">
+
+
+---
+
 # Neurohackweek outcomes
 
 --
