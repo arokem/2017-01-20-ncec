@@ -546,7 +546,7 @@ Rafael Neto Henriques
 
 ---
 
-# Build it in from day 1
+# Build reproducibility in from day 1
 
 --
 
