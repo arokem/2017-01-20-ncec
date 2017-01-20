@@ -353,13 +353,6 @@ Interdisciplinary research that makes progress in both disciplines
 
 ## 5-fold cross-validation on the HCP data-set
 
-<image src="images/spark-logo-trademark.png" height="100px">
-<image src="images/AWS.png" height="20%">
-
----
-
-## 5-fold cross-validation on the HCP data-set
-
 <image src="images/DKI_DTI.png" height"100%">
 
 
@@ -438,6 +431,10 @@ Is there a ball in the picture?
 
 <image src="images/dog-with-ball.png" height="300px">
 
+<div style="position: absolute; left: 50px; top: 650px;" >
+<a href="https://arxiv.org/pdf/1311.2901.pdf">Zeiler and Fergus (2013)</a>
+</div>
+
 ---
 
 ### Into the black box
@@ -445,6 +442,10 @@ Is there a ball in the picture?
 How about now?
 
 <image src="images/dog-with-ball-occluder-corner.png" height="300px">
+
+<div style="position: absolute; left: 50px; top: 650px;" >
+<a href="https://arxiv.org/pdf/1311.2901.pdf">Zeiler and Fergus (2013)</a>
+</div>
 
 ---
 
@@ -454,6 +455,9 @@ And now?
 
 <image src="images/dog-with-ball-occluder-center.png" height="300px">
 
+<div style="position: absolute; left: 50px; top: 650px;" >
+<a href="https://arxiv.org/pdf/1311.2901.pdf">Zeiler and Fergus (2013)</a>
+</div>
 
 ---
 
@@ -518,7 +522,15 @@ And now?
 
 ## Cloud computing enables reproducibility
 
+
+<image src="images/spark-logo-trademark.png" height="100px">
+
+<image src="images/AWS.png" height="20%">
+
+
 https://github.com/arokem/dki-accuracy-reliability
+
+
 
 ---
 
