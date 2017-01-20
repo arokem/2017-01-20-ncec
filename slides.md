@@ -360,12 +360,6 @@ Interdisciplinary research that makes progress in both disciplines
 
 ## What about TensorFlow?
 
---
-
-You didn't really think I would give a talk about Data Science in 2017 without talking about deep learning?
-
----
-
 <image src="images/deep-fmri.png" height="400px">
 
 <div style="position: absolute; left: 50px; top: 650px;" >
@@ -576,7 +570,7 @@ Rafael Neto Henriques
 
 ---
 
-### Leveraging the eco-system
+## Leveraging the eco-system
 
 ### With Jason Yeatman's lab
 
