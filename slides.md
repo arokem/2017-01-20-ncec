@@ -486,8 +486,6 @@ The results have face valiidity
 
 ## Cloud computing enables reproducibility
 
-# 5-fold cross-validation on 900 subjects
-
 https://github.com/arokem/dki-accuracy-reliability
 
 ---
@@ -525,7 +523,7 @@ Rafael Neto Henriques
 
 --
 
-<div style="position: absolute; left: 20px; top: 6000px;">
+<div style="position: absolute; left: 20px; top: 600px;">
 
 
 <a href="http://nipy.org/dipy/examples_built/kfold_xval.html">DIPY K-fold cross-validation</a>
@@ -659,13 +657,21 @@ Two paper manuscripts (!)
 
 ### Coming in September
 
----
+--
 
-# In the meanwhile
+## In the meanwhile
 
 ### [Brainhack global](http://events.brainhack.org/global2017/), March 4th-5th, 2017
 
 Sign up here: http://tinyurl.com/brainhack-global-2017-SEA
+
+---
+
+# Data Science
+
+<img src="images/escience.png" width=350>
+
+<img src="images/DataScienceVD.png" width=600>
 
 ---
 class: center
