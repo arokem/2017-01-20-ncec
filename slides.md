@@ -543,6 +543,10 @@ Code degrades with time...
 
 ...unless it is properly maintained
 
+--
+
+[http://ivory.idyll.org/blog/2017-pof-software-archivability.html](http://ivory.idyll.org/blog/2017-pof-software-archivability.html)
+
 ---
 
 ### Neuroimaging in Python
