@@ -702,11 +702,10 @@ Sign up here: http://tinyurl.com/brainhack-global-2017-SEA
 
 ---
 
-# Data Science
+# The WRF Data Science Studio
 
-<img src="images/escience.png" width=350>
+<img src="images/DataScienceStudio.jpy" width=700>
 
-<img src="images/DataScienceVD.png" width=400>
 
 ---
 class: center
