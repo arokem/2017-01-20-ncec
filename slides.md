@@ -430,9 +430,9 @@ Often longitudinal measurements (e.g., pre- and post-treatment)
 
 ### Into the black box
 
-<image src="images/OCT-validation.png" height="400px">
+<image src="images/OCT-validation.png" height="300px">
 
-The results have face valiidity
+=> face valiidity
 
 ---
 
