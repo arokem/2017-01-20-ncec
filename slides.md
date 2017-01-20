@@ -706,6 +706,7 @@ Sign up here: http://tinyurl.com/brainhack-global-2017-SEA
 
 <img src="images/DataScienceStudio.jpg" width=700>
 
+<img src="images/escience.png" width=400>
 
 ---
 class: center
