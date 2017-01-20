@@ -360,6 +360,9 @@ Interdisciplinary research that makes progress in both disciplines
 
 ## What about TensorFlow?
 
+--
+
+You didn't really think I would give a talk about Data Science in 2017 without talking about deep learning?
 
 ---
 
@@ -369,7 +372,61 @@ Interdisciplinary research that makes progress in both disciplines
 <a href="https://hal.inria.fr/hal-01389809/document">Eickenberg et al. (2016)</a>
 </div>
 
+---
 
+### Electronic medical records as brain observatories
+
+With Aaron Lee, UW Ophthalmology
+
+--
+
+Optical coherence tomography
+
+--
+
+<image src="images/OCT.png" height="400px">
+
+---
+
+### Electronic medical records as brain observatories
+
+2.6 Million images, >40 volumes, ~9,000 patients
+
+--
+
+With clinical diagnosis, and course of treatment
+
+--
+
+Often longitudinal measurements (e.g., pre- and post-treatment)
+
+---
+
+### Computer-assisted diagnosis
+
+- VGG-16 convolutional neural network
+- Trained from scratch
+- Age-related macular degeneration/healthy
+
+---
+
+### Computer-assisted diagnosis
+
+<image src="images/OCT-VGG-learning.png" height="400px">
+
+---
+
+### Computer-assisted diagnosis
+
+<image src="images/OCT-VGG-ROC.png" height="400px">
+
+---
+
+### Into the black box
+
+<image src="images/OCT-validation.png" height="400px">
+
+The results have face valiidity
 
 ---
 
@@ -442,36 +499,6 @@ Code degrades with time...
 --
 
 ...unless it is properly maintained
-
----
-
-#### Open-source science: the scientific Python eco-system
-
-<image src="images/python-ecosystem1.png" height=500px>
-
----
-
-#### Open-source science: the scientific Python eco-system
-
-<image src="images/python-ecosystem2.png" height=500px>
-
----
-
-#### Open-source science: the scientific Python eco-system
-
-<image src="images/python-ecosystem3.png" height=500px>
-
----
-
-#### Open-source science: the scientific Python eco-system
-
-<image src="images/python-ecosystem4.png" height=500px>
-
----
-
-### Neuroimaging in Python
-
-<a href="http://nipy.org/"><image src="images/nipy-logo.png" height="10%"></a>
 
 ---
 
@@ -610,6 +637,10 @@ Software to print 3D models of *your* brain
 
 --
 
+Open instructional materials (computing and neuroscience)
+
+--
+
 https://github.com/neurohackweek
 
 --
@@ -656,3 +687,34 @@ layout: false
   <div style="position:absolute; left: 120px; top:40px;">github.com/arokem
   </div>
 </div>
+
+
+---
+
+#### Open-source science: the scientific Python eco-system
+
+<image src="images/python-ecosystem1.png" height=500px>
+
+---
+
+#### Open-source science: the scientific Python eco-system
+
+<image src="images/python-ecosystem2.png" height=500px>
+
+---
+
+#### Open-source science: the scientific Python eco-system
+
+<image src="images/python-ecosystem3.png" height=500px>
+
+---
+
+#### Open-source science: the scientific Python eco-system
+
+<image src="images/python-ecosystem4.png" height=500px>
+
+---
+
+### Neuroimaging in Python
+
+<a href="http://nipy.org/"><image src="images/nipy-logo.png" height="10%"></a>
