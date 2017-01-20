@@ -324,6 +324,12 @@ HCP => no test-retest data, have to use k-fold cross-validation
 
 ---
 
+## At least performance scales well
+
+<img src="images/benchmark-end-to-end.png" width=600>
+
+---
+
 ## In addition
 
 - Dask, Myria and Spark support user-defined functions
