@@ -432,7 +432,7 @@ Often longitudinal measurements (e.g., pre- and post-treatment)
 
 <image src="images/OCT-validation.png" height="300px">
 
-=> face valiidity
+=> face validity
 
 ---
 
