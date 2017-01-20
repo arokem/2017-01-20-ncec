@@ -648,7 +648,7 @@ Part hackathon
 
 # Neurohackweek
 
-<image src="images/neurohackweek.png"  height="40%">
+<image src="images/neurohackweek.png"  height="60%">
 
 
 ---
